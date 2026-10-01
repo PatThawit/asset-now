@@ -1,0 +1,11 @@
+/* Asset Now: คงสีเขียวธรรมชาติ พร้อมเติมเฉดทองอุ่นจากโลโก้ */
+:root { --ink:#2f382c; --muted:#727465; --paper:#faf7ef; --line:#e6ddca; --green:#7d9678; --green-dark:#52674e; --sage:#e5eadb; --gold:#dcae3d; --gold-soft:#f4e4b8; }
+.nav { background:rgba(250,247,239,.95); border-bottom-color:rgba(172,128,39,.18); }
+.brand-logo { filter:drop-shadow(0 4px 9px rgba(126,91,22,.16)); }
+.brand > span { color:var(--ink); letter-spacing:.08em; }.brand small { color:#88754c; }
+.eyebrow,.service-number,.reason b,.team-flow b { color:#a87916; }
+.hero-overlay { background:linear-gradient(90deg,rgba(35,44,32,.94),rgba(46,55,38,.70) 48%,rgba(100,73,23,.18)); }
+.hero-dot.active { background:var(--gold-soft); border-color:var(--gold-soft); }
+.project-caption small,.footer-title { color:var(--gold-soft); }
+.team-hero { background:linear-gradient(135deg,#e8eddf,#f8eed5); }.team-hero:after { content:'A'; color:rgba(192,143,30,.10); }
+.cta-band { background:linear-gradient(110deg,#718a6b,#8b9467); }

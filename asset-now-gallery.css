@@ -1,0 +1,30 @@
+/* แกลเลอรีผลงาน: ภาพ 6 ภาพในหน้าโครงการ */
+.project-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 260px;
+  gap: 16px;
+}
+
+.project,
+.project:first-child {
+  grid-row: auto;
+  min-height: 0;
+}
+
+.project.featured {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media (max-width: 650px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 320px;
+  }
+
+  .project.featured {
+    grid-column: auto;
+    grid-row: auto;
+    min-height: 380px;
+  }
+}
